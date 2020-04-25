@@ -49,6 +49,7 @@ button{
 }
 .width{
     width: 100%;
+    border: 1px solid black;
 }
 .button{
     width: 49%;
@@ -60,6 +61,7 @@ button{
 
 .description{
     width: 33%;
+    padding-right: 5%;
 }
 
 h2{
@@ -77,8 +79,9 @@ h2{
     font-size: 20px;
 }
 
-.iframe{
+p.iframe{
     text-align: center;
+    alignment: center;
 }
 
 .tablehead{
@@ -89,12 +92,25 @@ h2{
 
 .tablecon{
     width: 100%;
-    background-color: rgba(21,36,30,0.8);
+    background-color: lightgray;
 }
 
 .Copyright{
-    background-color:rgba(0,0,0,0.87);
+    background-color: rgba(21,36,30,0.8);
     color: whitesmoke;
-    text-align: -webkit-center;
+    text-align:center;
     height: 50px;
+    text-decoration: none;
+}
+
+.logoalignment{
+    text-align: center;
+}
+
+html{
+    background-color: beige;
+}
+
+{
+    border: 1px solid black;
 }
